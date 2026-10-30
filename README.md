@@ -256,3 +256,8 @@ A: Yes. The component structure, props with hard-coded tasks, and the styling ne
 ---
 
 *Assignment 1 built this interface. Assignment 2 makes it work.*
+
+---
+
+## Reflection
+In Project 4, the vanilla JavaScript felt like one program making a page interactive. I had to find elements and change them myself. React felt like separate programs reacting to each other. When I checked a task in `TaskItem`, it told `App`, `App` updated the state, and `TaskCounter` and `TaskList` updated on their own without me touching the page. Splitting the page into components made each piece simpler, but I had to think more about how data moves between them.
